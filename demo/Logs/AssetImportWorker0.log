@@ -134,3 +134,9 @@ Received Import Request.
   path: Assets/Scenes
   artifactKey: Guid(da57acae43010404998ce066bc543cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes using Guid(da57acae43010404998ce066bc543cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e636a510bd548ddd870c82a53b5dadcf') in 0.006888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.606760 seconds.
+  path: Assets/PlayerMaterial.mat
+  artifactKey: Guid(87db53cfa6a1449a5b0e5010f5a1cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMaterial.mat using Guid(87db53cfa6a1449a5b0e5010f5a1cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a996ded76c9d53f76d7b45cf44c6bf45') in 1.157416 seconds 
