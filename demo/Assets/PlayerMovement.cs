@@ -5,10 +5,14 @@ public class PlayerMovement : MonoBehaviour
     // References the Rigidbody component "rb";
     public Rigidbody rb;
 
+    public float forwardForce = 200f;
+
     // Update is called once per frame
-    // Adds force to player cube
+
     void FixedUpdate()
     {
-        rb.AddForce(0, 0, 2000 * Time.deltaTime);
+        // Adds force to player cube
+        rb.AddForce(Input.GetAxis("Horizontal") * forwardForce * Time.deltaTime, 0, 0);
+        rb.AddForce(0, 0, Input.GetAxis("Vertical") * forwardForce * Time.deltaTime);
     }
 }
