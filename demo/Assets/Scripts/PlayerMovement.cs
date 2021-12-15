@@ -14,5 +14,8 @@ public class PlayerMovement : MonoBehaviour
         // Adds force to player cube
         rb.AddForce(Input.GetAxis("Horizontal") * forwardForce * Time.deltaTime, 0, 0);
         rb.AddForce(0, 0, Input.GetAxis("Vertical") * forwardForce * Time.deltaTime);
+        if (rb.position.y < -1f) {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
 }
